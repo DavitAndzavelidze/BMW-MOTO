@@ -1,14 +1,14 @@
 let redBTN = document.getElementById("red");
-let blueBTN = document.getElementById("blue");
+let yellowBTN = document.getElementById("yellow");
 let blackBTN = document.getElementById("black");
 let bike = document.getElementById("bike");
 
 redBTN.addEventListener("click", function () {
-  bike.style.backgroundImage = "url(images/BMW1.png)";
+  bike.style.backgroundImage = "url(images/red.png)";
 });
-blueBTN.addEventListener("click", function () {
-  bike.style.backgroundImage = "url(images/BMW2.png)";
+yellowBTN.addEventListener("click", function () {
+  bike.style.backgroundImage = "url(images/yellow.png)";
 });
 blackBTN.addEventListener("click", function () {
-  bike.style.backgroundImage = "url(images/BMW3.png)";
+  bike.style.backgroundImage = "url(images/black.png)";
 });
