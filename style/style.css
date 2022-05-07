@@ -14,7 +14,7 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-image: url("/images/red.png");
+  background-image: url("/images/red.webp");
   background-size: cover;
   background-position: center;
   padding: 20px 10%;
@@ -96,5 +96,54 @@
   }
   .content p {
     max-width: 300px;
+  }
+}
+@media (max-width: 1000px) {
+  .color__select #red,
+  .color__select #yellow,
+  .color__select #black {
+    border: 1px solid #fff;
+  }
+  .content {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    width: 50%;
+  }
+  .content h2,
+  .content h1,
+  .content p {
+    color: #fff;
+  }
+}
+@media (max-width: 815px) {
+  .content h2 {
+    font-size: 20px;
+  }
+  .content h1 {
+    font-size: 50px;
+  }
+  .color__select {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .content {
+    width: 100%;
+  }
+  .nav__btn {
+    padding: 15px 20px;
+  }
+  .content h2 {
+    font-size: 15px;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .content h3 {
+    font-size: 20px;
   }
 }

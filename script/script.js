@@ -4,11 +4,11 @@ let blackBTN = document.getElementById("black");
 let bike = document.getElementById("bike");
 
 redBTN.addEventListener("click", function () {
-  bike.style.backgroundImage = "url(images/red.png)";
+  bike.style.backgroundImage = "url(images/red.webp)";
 });
 yellowBTN.addEventListener("click", function () {
-  bike.style.backgroundImage = "url(images/yellow.png)";
+  bike.style.backgroundImage = "url(images/yellow.webp)";
 });
 blackBTN.addEventListener("click", function () {
-  bike.style.backgroundImage = "url(images/black.png)";
+  bike.style.backgroundImage = "url(images/black.webp)";
 });
